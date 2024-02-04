@@ -4,4 +4,4 @@ ENV APIKEY YOUR-OPENAI-APIKEY
 WORKDIR /wa-bot-automate
 COPY . .
 RUN npm install
-CMD [ "node", "server.js" ]
+CMD [ "node", "index.js" ]
